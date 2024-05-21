@@ -37,7 +37,7 @@ const Header = () => {
   );
 
   return (
-    <div className="navbar">
+    <div className="navbar font-sans">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className=" lg:hidden">
@@ -63,7 +63,7 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="normal-case text-2xl font-bold">
+        <Link to="/" className="text-3xl font-bold">
           BookBlitz
         </Link>
       </div>
@@ -72,7 +72,7 @@ const Header = () => {
           {links}
         </ul>
       </div>
-      <div className="navbar-end rounded-lg gap-4 font-sans font-semibold text-lg">
+      <div className="navbar-end rounded-lg gap-4 font-semibold text-lg">
         <a className="btn theme-color text-white">Sign In</a>
         <a className="btn theme-color2 text-white">Sign Up</a>
       </div>
