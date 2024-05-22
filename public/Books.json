@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/c6swDwg/book1.jpg",
+      "review": "A powerful story of racial injustice and moral growth set in the American South during the Great Depression.",
+      "totalPages": 281,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Drama", "Social Justice"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 2,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/MRLGPV2/book2.jpg",
+      "review": "A dystopian novel set in a totalitarian regime, exploring themes of surveillance, propaganda, and individual freedom.",
+      "totalPages": 328,
+      "rating": 4.6,
+      "category": "Science Fiction",
+      "tags": ["Dystopian", "Political", "Philosophical"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i.ibb.co/4FmKCFb/book3.jpg",
+      "review": "A classic romantic novel following the lives of the Bennet sisters and their pursuit of love and happiness in early 19th-century England.",
+      "totalPages": 279,
+      "rating": 4.4,
+      "category": "Romance",
+      "tags": ["Classic", "Romantic", "Comedy of Manners"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co/Mgzcg1j/book4.jpg",
+      "review": "An exploration of the American Dream through the eyes of the mysterious Jay Gatsby, set in the Jazz Age of the 1920s.",
+      "totalPages": 180,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Drama", "American Dream"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 5,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://i.ibb.co/RPDHd4Z/book5.jpg",
+      "review": "The first book in the beloved Harry Potter series, following the young wizard's journey as he discovers his magical heritage and battles the dark wizard Voldemort.",
+      "totalPages": 223,
+      "rating": 4.7,
+      "category": "Fantasy",
+      "tags": ["Wizardry", "Adventure", "Magic"],
+      "publisher": "Bloomsbury Publishing",
+      "yearOfPublishing": 1997
+    },
+    {
+      "bookId": 6,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/FJF8PGx/book6.jpg",
+      "review": "A coming-of-age novel following Holden Caulfield, a disenchanted teenager navigating the complexities of adolescence and society.",
+      "totalPages": 277,
+      "rating": 4.2,
+      "category": "Fiction",
+      "tags": ["Classic", "Young Adult", "Existentialism"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    }
+  ]
+  

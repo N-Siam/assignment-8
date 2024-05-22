@@ -13,7 +13,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center w-1/2 p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                    <img src={bannerImage} alt="Banner" className="" />
+                    <img src={bannerImage} alt={`image of ${bannerImage}`} className="" />
                 </div>
             </div>
         </section>
