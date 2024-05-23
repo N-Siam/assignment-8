@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* shared style */
 .font-sans{
   font-family: "Work Sans", sans-serif;
 }
