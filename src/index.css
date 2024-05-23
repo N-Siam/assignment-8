@@ -1,29 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* shared style */
-.font-sans{
+.font-sans {
   font-family: "Work Sans", sans-serif;
 }
-.font-playfair{
+.font-playfair {
   font-family: "Playfair Display", serif;
 }
 
-.theme-color{
-  background-color: #23BE0A;
+.theme-color {
+  background-color: #23be0a;
 }
-.theme-color2{
-  background-color: #59C6D2;
+.theme-color2 {
+  background-color: #59c6d2;
 }
-.text-color{
-  color: #23BE0A;
+.text-color {
+  color: #23be0a;
 }
-.nav-border{
-  border: 1px solid #23BE0A;
+.nav-border {
+  border: 1px solid #23be0a;
 }
-.banner-bg{
-  background: rgba(19, 19, 19, 0.05);;
+.banner-bg {
+  background: rgba(19, 19, 19, 0.05);
+}
+.cart-border {
+  box-sizing: border-box;
+  border: 1px solid rgba(19, 19, 19, 0.15);
+  border-radius: 16px;
+}
+.cart-tag-border {
+  border-radius: 30px;
+  background: rgba(35, 190, 10, 0.05);
+}
+.cart-hr{
+  border: 1px dashed rgba(19, 19, 19, 0.15);
 }

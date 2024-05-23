@@ -1,31 +1,38 @@
-import { CiStar } from "react-icons/ci";
+import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const BookCart = ({ book }) => {
-  const { bookId, author, image, rating, category, tags } = book;
+  const { bookId, author, image, rating, category, tags, bookName } = book;
   return (
     <Link
       to={`/book/${bookId}`}
-      className="transition hover:scale-105 hover:border-[#23BE0A] card bg-base-100 border-2"
+      className="transition hover:scale-105 font-sans hover:border-[#23BE0A] cart-border"
     >
       <figure className="px-5 pt-5 lg:h-[500px] ">
-        <img src={image} className="h-full w-full rounded-xl" />
+        <img src={image} className="h-full w-full rounded-2xl" />
       </figure>
       <div className="px-5 py-5 items-left text-left">
-        <p className="space-x-4 mt-2">
-          <button className="btn rounded-3xl text-[#23be0a]">{tags[0]}</button>
-
-          <button className="btn rounded-3xl text-[#23be0a]">{tags[1]}</button>
+        <p className="space-x-4 font-medium text-base mt-2">
+          {tags.slice(0, 2).map((tag, index) => (
+            <span
+              key={index}
+              className="btn cart-tag-border rounded-3xl text-color"
+            >
+              {tag}
+            </span>
+          ))}
         </p>
-        <h2 className="mt-5 text-2xl font-bold">{book.bookName}</h2>
-        <p className="mt-3 font-medium text-[#424242]">By : {author}</p>
-        <hr className="border-dashed my-5" />
-        <div className="flex items-center justify-between">
+        <h3 className="mt-5 text-2xl font-playfair font-bold">{bookName}</h3>
+        <p className="mt-3 font-medium text-base opacity-90 font-sans">
+          By : {author}
+        </p>
+        <hr className="cart-hr my-7" />
+        <div className="flex items-center justify-between font-medium text-base opacity-75">
           <p>{category}</p>
           <div className="flex items-center gap-1">
             <p>{rating}</p>
-            <CiStar className="text-xl" />
+            <FaRegStar />
           </div>
         </div>
       </div>
