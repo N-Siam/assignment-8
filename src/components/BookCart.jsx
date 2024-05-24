@@ -7,7 +7,7 @@ const BookCart = ({ book }) => {
   return (
     <Link
       to={`/book/${bookId}`}
-      className="transition hover:scale-105 font-sans hover:border-[#23BE0A] cart-border"
+      className="transition-transform duration-300 ease-in-out transform  hover:scale-105 font-sans hover:border-[#23BE0A] cart-border"
     >
       <figure className="px-5 pt-5 lg:h-[500px] ">
         <img src={image} className="h-full w-full rounded-2xl" />
